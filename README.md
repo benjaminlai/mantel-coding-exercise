@@ -16,6 +16,10 @@ Exercise was done using TDD with each exercise split into components and then in
 
 From command line run `go run main.go`
 
+### Sample Data Set
+
+Can be found in `resources/sample.log`
+
 ## Running Tests
 
 From command line run `go test ./... -v`
