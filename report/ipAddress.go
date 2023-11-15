@@ -1,5 +1,7 @@
 package report
 
+import "github.com/benjaminlai/mantel-coding-exercise/util"
+
 func ReportNumberOfUniqueIPAddresses(IPAddresses []string) int {
 	uniqueIPAddresses := make(map[string]bool)
 
@@ -8,4 +10,8 @@ func ReportNumberOfUniqueIPAddresses(IPAddresses []string) int {
 	}
 
 	return len(uniqueIPAddresses)
+}
+
+func ReportMostActiveIPAddresses(IPAddresses []string, count int) []string {
+	return util.FilterByTop(IPAddresses, count)
 }
