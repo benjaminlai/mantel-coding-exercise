@@ -8,6 +8,10 @@ More more details refer to spec found in `resources/programming-task.pdf`
 
 - Go 1.11+ (For Go Modules)
 
+## Approach
+
+Exercise was done using TDD with each exercise split into components and then in the end put together
+
 ## How to run
 
 From command line run `go run main.go`
