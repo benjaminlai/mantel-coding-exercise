@@ -15,3 +15,7 @@ From command line run `go run main.go`
 ## Running Tests
 
 From command line run `go test ./... -v`
+
+## Assumptions
+
+Data provided in resources/sample.log are consistent in structure and naming in most aspects
